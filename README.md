@@ -4,14 +4,27 @@
 
 #### Tabla de contenido
 
-+ Descripción y contexto
+###+ Descripción y contexto
 
 Solamente ingresando número de tarjeta de crédito, su programa podrá determinar si es factible pagar o no por esta vía.  Es decir si es un documento vigente.
 
+### To do
 
-+ Guía de usuario
+	-  Función creada:  function isValidCard(numero_tarjeta).
+	-  Usuario entrega número de tarjeta a validar.
+	-  Dato ingresado se aplica parseInt, para pasar a entero la data entregada. /*(Var caracter)*
+	-  Aplicando Algoritmo de Luhn
+			-  /* Localizar digitos pares e impares para proceder.  (var tipo)* 
+			-  /* Multiplicar impar por dos.  (Var imparPorDos)
 
-https://go.gliffy.com/go/share/sixidjkbn1ndl60n1j6a
+
+# NO MORE....YET!!!!!!
+
+
++ Guía de usuario.  Diagrama de flujo.
+
+
+
 
 +  Autor/es
 
@@ -20,15 +33,3 @@ https://go.gliffy.com/go/share/sixidjkbn1ndl60n1j6a
 
 ###Este archivo es la versión `0.0.1`
 
-*italica o cursiva* y _italica o cursiva_
-
-
-**destacar** y  __tambièn destaca__
-
-~~tachado~~
-
-###un código Javascript
-
-```javascript
-var str = "Diana";
-alert(str)

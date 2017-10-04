@@ -20,8 +20,7 @@
                     var msg = "caracter: " + caracter + " es:  " + tipo +"</br>";
                     document.write(msg); 
                  
-                
-                var imparPordos = caracter * 2;  
+                    var imparPordos = caracter * 2;  
                 /*Paso 1 Luhn:  El primer paso es tomar 
                 todos los números en posiciones impares y multiplicarlos por 2*/
                  //impares[i] = imparPordos;
@@ -33,8 +32,6 @@
 //function isValidCard(numero_tarjeta){    
 
 
-//alert("bien");
 
-//}
 
 

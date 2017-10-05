@@ -3,7 +3,7 @@
     var tarjetaIngresadaUsuario = prompt("Indique los digitos de su tarjeta. 16 dígitos");
 
         var cantidadCaracteres = tarjetaIngresadaUsuario.length;
-
+             //Comenzando a aplicar Algoritmo Luhn.  Recorrer dato   
             for (var i = 0; i < cantidadCaracteres; i++) {
                 
                 /*var msg = "iteracion: " + i + "</br>";
@@ -12,17 +12,18 @@
                 var caracter = parseInt(tarjetaIngresadaUsuario.charAt(i));
                 /*var msg = "caracter: " + caracter + "</br>";
                 document.write(msg);  (comprobando que variable caracter corre)*/
-                var tipo = (caracter%2)?"par":"impar";
+                
+                //Buscando pares
+                var tipo = (caracter%2)?"par":"impar"; 
                 /*var msg = "caracter: " + caracter + " es:  " + tipo +"</br>";
                 document.write(msg);  (comprobando que variable tipo corre) */
-                //(Comenzando a aplicar Algoritmo Luhn y comprobando si el if corre)
+               
                 if (tipo == "par") {  
                     var msg = "caracter: " + caracter + " es:  " + tipo +"</br>";
-                    document.write(msg); 
-                 
+                    document.write(msg);  //Comprobando si el if corre)
+                  // Para validar si var parPorDos es mayor o igual 10
                     var parPorDos = caracter * 2; 
-                    // si valor parPorDos es mayor o igual 10
-
+                   
                     if (parPorDos >=10){
                         
                     }

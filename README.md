@@ -12,22 +12,21 @@ Solamente ingresando número de tarjeta de crédito, su programa podrá determin
 
 	-  Función creada:  function isValidCard(numero_tarjeta).
 	-  Usuario entrega número de tarjeta a validar.
-	-  Dato ingresado se aplica parseInt, para pasar a entero la data entregada. /*(Var caracter)*
+	-  Creada variable para precisar longitud del input (var cantidadCaracteres).
+	 
 	-  Aplicando Algoritmo de Luhn
+			-  /*  Recorrer con for (Buscando números pares).
+			-  /*  Dato ingresado se aplica parseInt, para pasar a entero la data entregada. /*(Var caracter)*
 			-  /* Localizar digitos pares e impares para proceder.  (var tipo)* 
-			-  /* Multiplicar impar por dos.  (Var imparPorDos)
+			-  /* Multiplicar pares por dos.  (Var parPorDos).
+			-  /* Aplicar if (validar pares >=10).
 
 
 # NO MORE....YET!!!!!!
 
++ Guía de usuario.  Diagrama de flujo. 
 
-+ Guía de usuario.  Diagrama de flujo.
-
-
-![Diagrama](https://www.dropbox.com/s/h4xpx7sy72ou3gv/flujo%20tarjeta%20credito.jpg?dl=0)
-
-
-![Con titulo](C:\Users\aEsteban\Desktop\TARJETA VALIDA "Diagrama de flujo")
+![Diagrama flujo](http://imageshack.com/a/img924/4135/tIkvnI.jpg)
 
 
 +  Autor/es

@@ -1,5 +1,7 @@
 # FUNCION "IS VALID CARD"
 
+"Creada function isValidCard(numero_tarjeta){"
+
 ###### He aquí un programa para determinar si una tarjeta de crédito funciona o no en el mercado.
 
 #### Tabla de contenido

@@ -1,10 +1,10 @@
 # FUNCION IS VALID CARD
 
-###### Un programa que pretende ser la guía, para determinar si una tarjeta de crédito funciona o no en el mercado.
+###### He aquí un programa para determinar si una tarjeta de crédito funciona o no en el mercado.
 
 #### Tabla de contenido
 
-###+ Descripción y contexto
+### + Descripción y contexto
 
 Solamente ingresando número de tarjeta de crédito, su programa podrá determinar si es factible pagar o no por esta vía.  Es decir si es un documento vigente.
 
@@ -24,6 +24,10 @@ Solamente ingresando número de tarjeta de crédito, su programa podrá determin
 + Guía de usuario.  Diagrama de flujo.
 
 
+![Diagrama](https://www.dropbox.com/s/h4xpx7sy72ou3gv/flujo%20tarjeta%20credito.jpg?dl=0)
+
+
+![Con titulo](C:\Users\aEsteban\Desktop\TARJETA VALIDA "Diagrama de flujo")
 
 
 +  Autor/es
@@ -31,5 +35,5 @@ Solamente ingresando número de tarjeta de crédito, su programa podrá determin
 *Diana Chaparro Castro*
 
 
-###Este archivo es la versión `0.0.1`
+### Este archivo es la versión `0.0.1`
 

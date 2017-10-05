@@ -1,6 +1,6 @@
 //alert("estoy aqui");  Comprobando conexion con javascript
 
-    var tarjetaIngresadaUsuario = prompt("Indique los digitos de su tarjeta. Sólo números");
+    var tarjetaIngresadaUsuario = prompt("Indique los digitos de su tarjeta. 16 dígitos");
 
         var cantidadCaracteres = tarjetaIngresadaUsuario.length;
 
@@ -12,18 +12,23 @@
                 var caracter = parseInt(tarjetaIngresadaUsuario.charAt(i));
                 /*var msg = "caracter: " + caracter + "</br>";
                 document.write(msg);  (comprobando que variable caracter corre)*/
-                var tipo = (caracter%2)?"impar":"par";
+                var tipo = (caracter%2)?"par":"impar";
                 /*var msg = "caracter: " + caracter + " es:  " + tipo +"</br>";
                 document.write(msg);  (comprobando que variable tipo corre) */
-                //Comenzando a aplicar Algoritmo Luhn y comprobando si el if corre)
-                if (tipo == "impar") {  
+                //(Comenzando a aplicar Algoritmo Luhn y comprobando si el if corre)
+                if (tipo == "par") {  
                     var msg = "caracter: " + caracter + " es:  " + tipo +"</br>";
                     document.write(msg); 
                  
-                    var imparPordos = caracter * 2;  
+                    var parPorDos = caracter * 2; 
+                    // si valor parPorDos es mayor o igual 10
+
+                    if (parPorDos >=10){
+                        
+                    }
                 /*Paso 1 Luhn:  El primer paso es tomar 
-                todos los números en posiciones impares y multiplicarlos por 2*/
-                 //impares[i] = imparPordos;
+                todos los números en posiciones pares y multiplicarlos por 2*/
+                 //pares[i] =   parPordos;
 
                 } 
 

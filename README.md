@@ -1,4 +1,4 @@
-# FUNCION IS VALID CARD
+# FUNCION "IS VALID CARD"
 
 ###### He aquí un programa para determinar si una tarjeta de crédito funciona o no en el mercado.
 
@@ -8,7 +8,7 @@
 
 Solamente ingresando número de tarjeta de crédito, su programa podrá determinar si es factible pagar o no por esta vía.  Es decir si es un documento vigente.
 
-### To do
+### PSEUDO-CODIGO
 
 	-  Función creada:  function isValidCard(numero_tarjeta).
 	-  Usuario entrega número de tarjeta a validar.

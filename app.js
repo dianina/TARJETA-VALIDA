@@ -1,4 +1,5 @@
 //alert("estoy aqui");  Comprobando conexion con javascript
+ //function isValidCard(numero_tarjeta){ 
 
     var tarjetaIngresadaUsuario = prompt("Indique los digitos de su tarjeta. 16 dígitos");
 
@@ -21,9 +22,11 @@
                 if (tipo == "par") {  
                     var msg = "caracter: " + caracter + " es:  " + tipo +"</br>";
                     document.write(msg);  //Comprobando si el if corre)
-                  // Para validar si var parPorDos es mayor o igual 10
+                  
+                    //
                     var parPorDos = caracter * 2; 
                    
+                   // Para validar si var parPorDos es mayor o igual 10
                     if (parPorDos >=10){
                         
                     }
@@ -31,9 +34,15 @@
                 todos los números en posiciones pares y multiplicarlos por 2*/
                  //pares[i] =   parPordos;
 
+                 /* ----------------------------------------------------------- 
+                 Hasta aquí llego mi código que compila, los demás intentos
+                  me bloqueaban el desarrollo del codigo anterior
+                  ------------------------------------------------------------*/ 
+
                 } 
 
     }
+
 
 //function isValidCard(numero_tarjeta){    
 
